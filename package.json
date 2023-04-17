@@ -1,0 +1,21 @@
+{
+  "name": "lucid-outliner",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sheyne/lucid-outliner.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sheyne/lucid-outliner/issues"
+  },
+  "homepage": "https://github.com/Sheyne/lucid-outliner#readme",
+  "devDependencies": {
+    "lucid-package": "^0.0.61"
+  }
+}
