@@ -25,16 +25,16 @@
       "name": "google",
       "title": "Google",
       "tokenUrl": "https://oauth2.googleapis.com/token",
-      "authorizationUrl": "https://accounts.google.com/a/oauth2/auth?access_type=offline&prompt=consent",
+      "authorizationUrl": "https://accounts.google.com/o/oauth2/auth?access_type=offline&prompt=consent",
       "scopes": [
+        "https://www.googleapis.com/auth/userinfo.email",
         "https://www.googleapis.com/auth/documents"
       ],
       "domainWhitelist": [
-        "https://docs.google.com",
+        "https://docs.googleapis.com",
         "https://www.googleapis.com"
       ],
-      "clientAuthentication": "basic",
-      "faviconUrl": "https://www.google.com/favicon.ico"
+      "clientAuthentication": "basic"
     }
   ]
 }
