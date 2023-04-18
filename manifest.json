@@ -1,6 +1,6 @@
 {
-  "id": "",
-  "version": "1.0.0",
+  "id": "85eef3c9-0122-4bbc-8da6-d307838d7a39",
+  "version": "1.0.1",
   "extensions": [
     {
       "name": "outliner",
@@ -20,5 +20,21 @@
     }
   ],
   "shapeLibraries": [],
-  "oauthProviders": []
+  "oauthProviders": [
+    {
+      "name": "google",
+      "title": "Google",
+      "tokenUrl": "https://oauth2.googleapis.com/token",
+      "authorizationUrl": "https://accounts.google.com/a/oauth2/auth?access_type=offline&prompt=consent",
+      "scopes": [
+        "https://www.googleapis.com/auth/documents"
+      ],
+      "domainWhitelist": [
+        "https://docs.google.com",
+        "https://www.googleapis.com"
+      ],
+      "clientAuthentication": "basic",
+      "faviconUrl": "https://www.google.com/favicon.ico"
+    }
+  ]
 }
